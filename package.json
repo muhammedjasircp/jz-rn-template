@@ -4,5 +4,13 @@
   "description": "React Native Template",
   "repository": "git@github.com:muhammedjasircp/jaz-template.git",
   "author": "MJ <jazyrcp@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "android": "cd template && npx react-native run-android",
+    "ios": "cd template && npx react-native run-ios",
+    "start": "cd template && npx react-native start",
+    "test": "cd template && npx jest",
+    "lint": "cd template && eslint .",
+    "pod": "cd template && npx pod-install"
+  }
 }
