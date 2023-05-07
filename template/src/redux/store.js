@@ -3,9 +3,11 @@ import {persistReducer, persistStore} from 'redux-persist';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import sampleReducer from '@slices/sampleSlice';
+import authReducer from '@slices/authSlice';
 
 const rootReducer = combineReducers({
   sample: sampleReducer,
+  auth: authReducer,
 });
 
 const persistConfig = {
