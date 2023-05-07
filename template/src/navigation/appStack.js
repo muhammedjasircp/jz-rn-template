@@ -5,7 +5,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import Counter from '@screens/app/Counter';
 import Home from '@screens/app/Home';
-import {screenOptions} from './appNavigator';
+import {screenOptions} from '@navigation/appNavigator';
 
 const Stack = createNativeStackNavigator();
 
