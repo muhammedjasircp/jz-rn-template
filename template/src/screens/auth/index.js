@@ -1,18 +1,20 @@
 import {Button, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {logoutAction} from '@redux/slices/authSlice';
 import {useDispatch} from 'react-redux';
 
-const Home = () => {
+import {loginAction} from '@redux/slices/authSlice';
+
+const AuthScreen = () => {
   const dispatch = useDispatch();
+
   return (
     <View>
-      <Text>Home</Text>
-      <Button title="Logout" onPress={() => dispatch(logoutAction())} />
+      <Text>AuthScreen</Text>
+      <Button title="Login" onPress={() => dispatch(loginAction())} />
     </View>
   );
 };
 
-export default Home;
+export default AuthScreen;
 
 const styles = StyleSheet.create({});

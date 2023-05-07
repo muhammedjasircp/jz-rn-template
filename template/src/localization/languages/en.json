@@ -1,0 +1,14 @@
+{
+  "loginToAccount": "Login to your account",
+  "email": "Email",
+  "password": "Password",
+  "signIn": "Sign in",
+  "forgotPassword": "Forgot your password?",
+  "dontHaveAccount": "Don't have an account?",
+  "sample": "How do you want your egg today?",
+  "signUp": "Sign up",
+  "createAccount": "Create a new account",
+  "alreadyHaveAccount": "Already have an account?",
+  "passwordErrorMessage": "Your password must be at least 8 characters, with at least a symbol, upper and lower case letters, and a number",
+  "phoneNumber": "Phone Number"
+}

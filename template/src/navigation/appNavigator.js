@@ -1,17 +1,21 @@
-// In App.js in a new project
-
 import * as React from 'react';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Counter from '@screens/app/Counter';
-import Home from '@screens/app/Home';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
 
-const Stack = createNativeStackNavigator();
+import {useSelector} from 'react-redux';
+
+import {MainNavigator} from '@navigation/appStack';
+import {AuthNavigator} from '@navigation/authStack';
+
+export const screenOptions = {
+  headerShown: false,
+  animation: 'none',
+};
 
 export const AppNavigator = () => {
+  const {isLoggedIn} = useSelector(state => state.auth);
   return (
-    <Stack.Navigator>
-      <Stack.Screen name="Counter" component={Counter} />
-      <Stack.Screen name="Home" component={Home} />
-    </Stack.Navigator>
+    <SafeAreaProvider>
+      {isLoggedIn ? <MainNavigator /> : <AuthNavigator />}
+    </SafeAreaProvider>
   );
 };
