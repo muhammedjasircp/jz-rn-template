@@ -21,6 +21,7 @@ module.exports = {
           '@contexts': './src/contexts',
           '@constants': './src/constants',
           '@components': './src/components',
+          '@localization': './src/localization',
           '@api': './src/api',
           '@assets': './src/assets',
           '@navigation': './src/navigation',
