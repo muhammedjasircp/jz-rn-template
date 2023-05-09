@@ -2,7 +2,7 @@
   "name": "jaz-template",
   "version": "0.0.2",
   "description": "React Native Template",
-  "repository": "git@github.com:muhammedjasircp/jaz-template.git",
+  "repository": "git@github.com:muhammedjasircp/jz-rn-template.git",
   "author": "MJ <jazyrcp@gmail.com>",
   "license": "MIT",
   "scripts": {
