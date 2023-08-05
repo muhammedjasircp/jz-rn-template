@@ -1,0 +1,16 @@
+{
+  "@config": "./src/config",
+  "@contexts": "./src/contexts",
+  "@constants": "./src/constants",
+  "@components": "./src/components",
+  "@localization": "./src/localization",
+  "@api": "./src/api",
+  "@assets": "./src/assets",
+  "@navigation": "./src/navigation",
+  "@screens": "./src/screens",
+  "@services": "./src/services",
+  "@theme": "./src/theme",
+  "@utils": "./src/utils",
+  "@redux": "./src/redux",
+  "@slices": "./src/redux/slices"
+}
