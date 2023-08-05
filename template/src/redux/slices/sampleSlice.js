@@ -1,11 +1,11 @@
-import {createSlice} from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   value: 0,
 };
 
 export const sampleSlice = createSlice({
-  name: 'sample',
+  name: "sample",
   initialState,
   reducers: {
     increment: state => {
@@ -20,6 +20,6 @@ export const sampleSlice = createSlice({
   },
 });
 
-export const {increment, decrement, incrementByAmount} = sampleSlice.actions;
+export const { increment, decrement, incrementByAmount } = sampleSlice.actions;
 
 export default sampleSlice.reducer;

@@ -1,8 +1,9 @@
-import {Button, StyleSheet, Text, View} from 'react-native';
-import React from 'react';
-import {useDispatch} from 'react-redux';
+import React from "react";
+import { Button, Text, View } from "react-native";
 
-import {loginAction} from '@redux/slices/authSlice';
+import { useDispatch } from "react-redux";
+
+import { loginAction } from "@redux/slices/authSlice";
 
 const AuthScreen = () => {
   const dispatch = useDispatch();
@@ -16,5 +17,3 @@ const AuthScreen = () => {
 };
 
 export default AuthScreen;
-
-const styles = StyleSheet.create({});
